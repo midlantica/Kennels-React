@@ -31,7 +31,11 @@ export default () => (
 
       <h4>Animals</h4>
       <AnimalProvider>
-        <AnimalList />
+        <LocationProvider>
+          <CustomerProvider>
+            <AnimalList />
+          </CustomerProvider>
+        </LocationProvider>
       </AnimalProvider>
 
       <h4>Employees</h4>

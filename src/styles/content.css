@@ -38,8 +38,8 @@
   background: linear-gradient(
     180deg,
     var(--white) 0%,
-    var(--white) 60%,
+    var(--white) 80%,
     var(--primary-lt) 100%
   );
-  box-shadow: 0px 2px 3px -1px hsla(0, 0%, 0%, 0.15);
+  /* box-shadow: 0px 2px 3px -1px hsla(0, 0%, 0%, 0.15); */
 }
