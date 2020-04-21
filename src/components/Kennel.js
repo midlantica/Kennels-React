@@ -21,32 +21,39 @@ export default () => (
         <small>Loving care when you're not there.</small>
       </p>
     </header>
-    <div>&nbsp;</div>
 
-    <address>
-      <p>Visit Us at the Nashville North Location</p>
-      <p>500 Puppy Way</p>
-    </address>
-    <hr />
+    <div className='container'>
+      <address>
+        <p>Visit Us at the Nashville North Location</p>
+        <p>500 Puppy Way</p>
+      </address>
+      <hr />
 
-    <h3>Animals</h3>
-    <AnimalProvider>
-      <AnimalList />
-    </AnimalProvider>
+      <h4>Animals</h4>
+      <AnimalProvider>
+        <LocationProvider>
+          <CustomerProvider>
+            <AnimalList />
+          </CustomerProvider>
+        </LocationProvider>
+      </AnimalProvider>
 
-    <h3>Employees</h3>
-    <EmployeeProvider>
-      <EmployeeList />
-    </EmployeeProvider>
+      <h4>Employees</h4>
+      <EmployeeProvider>
+        <EmployeeList />
+      </EmployeeProvider>
 
-    <h3>Locations</h3>
-    <LocationProvider>
-      <LocationList />
-    </LocationProvider>
+      <h4>Locations</h4>
+      <LocationProvider>
+        <LocationList />
+      </LocationProvider>
 
-    <h3>Customers</h3>
-    <CustomerProvider>
-      <CustomerList />
-    </CustomerProvider>
+      <h4>Customers</h4>
+      <CustomerProvider>
+        <CustomerList />
+      </CustomerProvider>
+    </div>
+
+    <footer></footer>
   </>
 )
