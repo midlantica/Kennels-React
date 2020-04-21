@@ -1,7 +1,8 @@
 :root {
-  --black: rgb(33, 0, 0);
-  --primary: rgb(255, 194, 194);
-  --primary-dk: rgb(208, 35, 35);
-  --primary-dkr: rgb(136, 17, 17);
-  --primary-lt: rgb(255, 239, 239);
+  --white: white;
+  --black: hsl(0, 100%, 6%);
+  --primary: hsl(0, 100%, 88%);
+  --primary-dk: hsl(0, 71%, 48%);
+  --primary-dkr: hsl(0, 78%, 30%);
+  --primary-lt: hsl(0, 100%, 97%);
 }

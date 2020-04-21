@@ -81,6 +81,11 @@
       "id": 5,
       "name": "Washburn",
       "address": "209 Emory Drive"
+    },
+    {
+      "id": 6,
+      "name": "Brazos",
+      "address": "123 Main St"
     }
   ]
 }
