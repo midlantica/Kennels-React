@@ -1,0 +1,86 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Goldie",
+      "breed": "Golden Labrador",
+      "customerId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "name": "Red",
+      "breed": "Irish Setter",
+      "customerId": 3,
+      "locationId": 3
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "address": "7002 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Valentina Harper",
+      "address": "1400 Dress Sr"
+    },
+    {
+      "id": 3,
+      "name": "Ava Rose",
+      "address": "4 Hartness Ln"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Fred Belitnitkof",
+      "address": "456 Mares Lane"
+    },
+    {
+      "id": 2,
+      "name": "Phil Owen",
+      "address": "20 Marlborough Ave"
+    },
+    {
+      "id": 3,
+      "name": "Jim Plunkett",
+      "address": "12 Eustacia Gardens"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "1001 21st St"
+    },
+    {
+      "id": 3,
+      "name": "12 South",
+      "address": "209 Emory Drive"
+    },
+    {
+      "id": 4,
+      "name": "Belmont",
+      "address": "6001 Belmont Ave"
+    },
+    {
+      "id": 5,
+      "name": "Washburn",
+      "address": "209 Emory Drive"
+    }
+  ]
+}
