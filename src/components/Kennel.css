@@ -26,12 +26,12 @@ h6 {
 
 p {
   margin-bottom: 1.5em;
-  color: #d6fcff;
-  color: darkslateblue;
+  color: darkslateblue !important;
 }
 
 strong {
   font-weight: bold;
+  color: blue;
 }
 
 address {

@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Patua+One');
+
 body {
   margin: 0;
   padding: 1em 1.25em;
-  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Comfortaa', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
@@ -25,19 +27,20 @@ h4,
 h5,
 h6 {
   margin: 0 0 0.25rem;
-  font-weight: bold;
   color: var(--primary-dk);
+  font-family: 'Patua One', serif;
+  letter-spacing: 0.05ch;
 }
 
 body h3 {
-  border-bottom: 1px dotted var(--primary);
+  /* border-bottom: 1px dotted var(--primary); */
 }
 
 p,
 ol,
 ul,
 li {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   margin: 0 0 0.5rem;
 }
 
@@ -59,24 +62,24 @@ li:last-of-type {
 .employees,
 .locations,
 .customers {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   padding: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .animal,
 .employee,
 .location,
 .customer {
-  padding: 0.5rem;
-  border: 1px solid var(--primary);
+  padding: 0.5rem 0.75rem;
   background: var(--primary-lt);
-  margin: 0.25rem 0.25rem;
-  /* flex-basis: 30%; */
-  /* flex: 0 40% auto; */
-  border-radius: 4px;
-  min-width: 170px;
-  max-width: 216px;
+  border-radius: 3px;
+  background: linear-gradient(
+    180deg,
+    var(--primary-lt) 0%,
+    var(--primary-lt) 60%,
+    var(--primary) 100%
+  );
 }
