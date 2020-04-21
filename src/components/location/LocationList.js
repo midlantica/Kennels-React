@@ -6,7 +6,7 @@ export default () => {
   const { locations } = useContext(LocationContext)
 
   return (
-    <div className='locations'>
+    <div className='box locations'>
       {locations.map((loc) => (
         <Location key={loc.id} location={loc} />
       ))}

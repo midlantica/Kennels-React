@@ -6,7 +6,7 @@ export default () => {
   const { animals } = useContext(AnimalContext)
 
   return (
-    <div className='animals'>
+    <div className='box animals'>
       {animals.map((animal) => (
         <Animal key={animal.id} animal={animal} />
       ))}

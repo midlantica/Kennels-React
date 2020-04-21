@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:wght@300;700|Patua+One');
+/*  */
+@import './colors.css';
+@import './typography.css';
+@import './header-footer.css';
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: hsl(0, 0%, 20%);
+}
+
+#root {
+  display: grid;
+  grid-gap: 0em;
+  grid-template-rows: 1fr;
+}
+
+.container {
+  padding: 1rem 1.25rem;
+  background: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+hr {
+  outline: none;
+  border: 0.25px solid hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.5);
+  margin-bottom: 1rem;
+}
+
+.box,
+.box,
+.box,
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 0.5rem;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.box:last-of-type,
+.box:last-of-type,
+.box:last-of-type,
+.box:last-of-type {
+  margin-bottom: 0;
+}
+
+.animals h5,
+.employees h5,
+.locations h5,
+.customers h5 {
+  color: var(--black);
+  font-family: Comfortaa;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.animal,
+.employee,
+.location,
+.customer {
+  padding: 0.5rem 0.75rem;
+  background: var(--primary-lt);
+  border-radius: 3px;
+  background: linear-gradient(
+    180deg,
+    var(--primary-lt) 0%,
+    var(--primary-lt) 60%,
+    var(--primary) 100%
+  );
+  box-shadow: 0px 3px 4px -5px hsla(0, 0%, 0%, 0.5);
+}
