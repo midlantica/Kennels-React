@@ -1,15 +1,14 @@
 import React from 'react'
-// import './animal/Animal.css'
+// ANIMALS
 import AnimalList from './animal/AnimalList'
 import { AnimalProvider } from './animal/AnimalProvider'
-// import './customer/Customer.css'
+// CUSTOMERS
 import CustomerList from './customer/CustomerList'
 import { CustomerProvider } from './customer/CustomerProvider'
-// import './employee/Employee.css'
+// EMPLOYEES
 import EmployeeList from './employee/EmployeeList'
 import { EmployeeProvider } from './employee/EmployeeProvider'
-// import './Kennel.css'
-// import './location/Location.css'
+// LOCATIONS
 import LocationList from './location/LocationList'
 import { LocationProvider } from './location/LocationProvider'
 

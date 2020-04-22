@@ -15,9 +15,9 @@ export default () => {
   return (
     <>
       <div className='flexRow'>
-        <h2 className='marRH'>Employees</h2>
+        <h4 className='marRH'>Employees</h4>
         <div className='plusBtn' onClick={toggle}>
-          +
+          Add
         </div>
       </div>
 

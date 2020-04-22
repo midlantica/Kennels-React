@@ -8,6 +8,7 @@
 @import './links.css';
 @import './flex-grid.css';
 @import './buttons.css';
+@import './forms.css';
 
 html {
   font-size: 90%;

@@ -43,7 +43,7 @@ export default (props) => {
       </fieldset>
       <fieldset>
         <div className='form-group'>
-          <label htmlFor='employeeAddress'>Address: </label>
+          <label htmlFor='employeeAddress'>Address:</label>
           <input
             type='text'
             id='employeeAddress'
@@ -57,7 +57,7 @@ export default (props) => {
       </fieldset>
       <fieldset>
         <div className='form-group'>
-          <label htmlFor='location'>Assign to location: </label>
+          <label htmlFor='location'>Assign to location:</label>
           <select
             defaultValue=''
             name='location'
@@ -80,9 +80,9 @@ export default (props) => {
           evt.preventDefault() // Prevent browser from submitting the form
           constructNewEmployee()
         }}
-        className='btn btn-primary'
+        className='btn btn-primary btn-save'
       >
-        Save Employee
+        Save
       </button>
     </form>
   )
