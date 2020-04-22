@@ -9,8 +9,7 @@
     "bootstrap": "^4.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "reactstrap": "^8.4.1"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -23,7 +22,7 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
+      ">5%",
       "not dead",
       "not op_mini all"
     ],
@@ -32,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bootstrap": "^4.4.1",
+    "reactstrap": "^8.4.1"
   }
 }
