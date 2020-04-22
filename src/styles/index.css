@@ -4,6 +4,8 @@
 @import './typography.css';
 @import './header-footer.css';
 @import './content.css';
+@import './links.css';
+@import './flex-grid.css';
 
 html {
   font-size: 90%;
@@ -25,7 +27,7 @@ body {
   grid-template-rows: 1fr;
 }
 
-.container {
+.dh-container {
   padding: 1rem 1.25rem;
   background: white;
 }
@@ -40,22 +42,4 @@ hr {
   border: 0.25px solid hsla(0, 0%, 0%, 0.1);
   box-shadow: 0 2px 5px hsla(0, 0%, 0%, 0.5);
   margin-bottom: 1rem;
-}
-
-.box,
-.box,
-.box,
-.box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 0.5rem;
-  padding: 0;
-  margin-bottom: 1.5rem;
-}
-
-.box:last-of-type,
-.box:last-of-type,
-.box:last-of-type,
-.box:last-of-type {
-  margin-bottom: 0;
 }

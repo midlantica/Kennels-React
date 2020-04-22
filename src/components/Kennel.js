@@ -22,7 +22,7 @@ export default () => (
       </p>
     </header>
 
-    <div className='container'>
+    <div className='dh-container'>
       <address>
         <p>Visit Us at the Nashville North Location</p>
         <p>500 Puppy Way</p>

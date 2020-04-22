@@ -6,7 +6,7 @@ export default () => {
   const { employees } = useContext(EmployeeContext)
 
   return (
-    <div className='box employees'>
+    <div className='gridSection employees'>
       {employees.map((emp) => (
         <Employee key={emp.id} employee={emp} />
       ))}
