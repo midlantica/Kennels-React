@@ -38,9 +38,10 @@ export default () => (
         </LocationProvider>
       </AnimalProvider>
 
-      <h4>Employees</h4>
       <EmployeeProvider>
-        <EmployeeList />
+        <LocationProvider>
+          <EmployeeList />
+        </LocationProvider>
       </EmployeeProvider>
 
       <h4>Locations</h4>

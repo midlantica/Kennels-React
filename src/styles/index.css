@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:wght@300;700|Patua+One');
 /*  */
+@import './dh-common/_dh-main.css';
 @import './colors.css';
 @import './typography.css';
 @import './header-footer.css';
 @import './content.css';
 @import './links.css';
 @import './flex-grid.css';
+@import './buttons.css';
 
 html {
   font-size: 90%;
