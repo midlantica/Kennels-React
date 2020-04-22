@@ -6,14 +6,14 @@
   cursor: pointer;
 }
 
-.href {
+/* .href {
   color: #479cf7d3;
   text-decoration: underline;
 }
 
 .href:hover {
   color: #007bff;
-}
+} */
 
 .fakeLink:focus {
   outline: 0;

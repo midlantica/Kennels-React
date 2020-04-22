@@ -14,13 +14,14 @@ export default () => {
 
   return (
     <>
-      <h2>Employees</h2>
-
-      <div className='fakeLink href' onClick={toggle}>
-        New Employee
+      <div className='flexRow'>
+        <h2 className='marRH'>Employees</h2>
+        <div className='plusBtn' onClick={toggle}>
+          +
+        </div>
       </div>
 
-      <ul className='gridSection employees'>
+      <div className='gridSection employees'>
         {employees.map((employee) => {
           const loc = locations.find((l) => l.id === employee.locationId)
 
@@ -28,7 +29,7 @@ export default () => {
             <Employee key={employee.id} location={loc} employee={employee} />
           )
         })}
-      </ul>
+      </div>
 
       <Modal isOpen={modal} toggle={toggle}>
         <ModalHeader toggle={toggle}>New Employee</ModalHeader>
