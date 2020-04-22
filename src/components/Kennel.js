@@ -1,15 +1,14 @@
 import React from 'react'
-// import './animal/Animal.css'
+// ANIMALS
 import AnimalList from './animal/AnimalList'
 import { AnimalProvider } from './animal/AnimalProvider'
-// import './customer/Customer.css'
+// CUSTOMERS
 import CustomerList from './customer/CustomerList'
 import { CustomerProvider } from './customer/CustomerProvider'
-// import './employee/Employee.css'
+// EMPLOYEES
 import EmployeeList from './employee/EmployeeList'
 import { EmployeeProvider } from './employee/EmployeeProvider'
-// import './Kennel.css'
-// import './location/Location.css'
+// LOCATIONS
 import LocationList from './location/LocationList'
 import { LocationProvider } from './location/LocationProvider'
 
@@ -22,7 +21,7 @@ export default () => (
       </p>
     </header>
 
-    <div className='container'>
+    <div className='dh-container'>
       <address>
         <p>Visit Us at the Nashville North Location</p>
         <p>500 Puppy Way</p>
@@ -38,9 +37,10 @@ export default () => (
         </LocationProvider>
       </AnimalProvider>
 
-      <h4>Employees</h4>
       <EmployeeProvider>
-        <EmployeeList />
+        <LocationProvider>
+          <EmployeeList />
+        </LocationProvider>
       </EmployeeProvider>
 
       <h4>Locations</h4>

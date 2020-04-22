@@ -36,7 +36,7 @@
     {
       "id": 3,
       "name": "Ava Rose",
-      "address": "4 Hartness Ln"
+      "address": "4 Hartness Lane"
     }
   ],
   "employees": [
@@ -54,6 +54,18 @@
       "id": 3,
       "name": "Jim Plunkett",
       "address": "12 Eustacia Gardens"
+    },
+    {
+      "name": "Drew Harper",
+      "locationId": 4,
+      "address": "1 Main St",
+      "id": 4
+    },
+    {
+      "name": "Jim Horrocks",
+      "locationId": 5,
+      "address": "204 Yard St",
+      "id": 5
     }
   ],
   "locations": [

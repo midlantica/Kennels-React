@@ -6,7 +6,7 @@ export default () => {
   const { customers } = useContext(CustomerContext)
 
   return (
-    <div className='box customers'>
+    <div className='gridSection customers'>
       {customers.map((loc) => (
         <Customer key={loc.id} customer={loc} />
       ))}

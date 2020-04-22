@@ -1,0 +1,20 @@
+.btn-save {
+  float: right;
+  margin: 0rem 0.7rem 1rem 0;
+}
+
+.form-control {
+  font-size: 80% !important;
+}
+
+.form-control button,
+.form-control input,
+.form-control optgroup,
+.form-control select,
+.form-control textarea {
+  /* font-size: 80% !important; */
+}
+
+label {
+  font-size: 80% !important;
+}
