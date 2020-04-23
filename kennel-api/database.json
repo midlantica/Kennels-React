@@ -20,6 +20,13 @@
       "breed": "Irish Setter",
       "customerId": 3,
       "locationId": 3
+    },
+    {
+      "name": "Barry",
+      "breed": "St Bernard",
+      "locationId": 6,
+      "customerId": 4,
+      "id": 4
     }
   ],
   "customers": [
@@ -50,6 +57,27 @@
       "name": "Drew Harper",
       "address": "1622 Shaftsbury Lane",
       "id": 4
+    },
+    {
+      "email": "jmiller@gmail.com",
+      "password": "1234",
+      "name": "Joe Miller",
+      "address": "1 Rocinante",
+      "id": 5
+    },
+    {
+      "email": "abe@gmail.com",
+      "password": "1234",
+      "name": "Abe Vigoda",
+      "address": "101 Johnson St",
+      "id": 6
+    },
+    {
+      "email": "derasmus@gmail.com",
+      "password": "1234",
+      "name": "Desiderius Erasmus",
+      "address": "42 Folly St",
+      "id": 9
     }
   ],
   "employees": [

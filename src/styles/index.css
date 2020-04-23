@@ -9,9 +9,11 @@
 @import './flex-grid.css';
 @import './buttons.css';
 @import './forms.css';
+@import './modal.css';
+@import './common.css';
 
 html {
-  font-size: 90%;
+  font-size: 1.2em;
   box-sizing: border-box;
 }
 
@@ -32,7 +34,7 @@ body {
 
 .dh-container {
   padding: 1rem 1.25rem;
-  background: white;
+  background: whitesmoke;
 }
 
 code {

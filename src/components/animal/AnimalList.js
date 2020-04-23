@@ -17,7 +17,7 @@ export default () => {
   return (
     <>
       <div className='flexRow'>
-        <h4 className='marRH'>Employees</h4>
+        <h4 className='marRH'>Animals</h4>
         <Button
           className='plusBtn'
           onClick={() => {

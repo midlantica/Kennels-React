@@ -1,3 +1,7 @@
+.modal-dialog {
+  /* font-size: 80%; */
+}
+
 .btn-save {
   float: right;
   margin: 0rem 0.7rem 1rem 0;
@@ -5,16 +9,32 @@
 
 .form-control {
   /* font-size: 80% !important; */
+  border: 0.03rem solid hsla(0, 0%, 50%, 0.5);
 }
 
-.form-control button,
-.form-control input,
-.form-control optgroup,
-.form-control select,
-.form-control textarea {
-  /* font-size: 80% !important; */
+button.form-control,
+input.form-control,
+optgroup.form-control,
+select.form-control,
+textarea.form-control {
+  font-size: 80% !important;
 }
 
 label {
   /* font-size: 80% !important; */
+}
+
+.btn-primary {
+  color: white;
+  background-color: hsla(0, 0%, 50%, 0.85) !important;
+  border-color: hsla(0, 0%, 50%, 0.85) !important;
+  border: none;
+  outline: none;
+}
+
+.btn-primary:hover {
+  color: var(--primary-dk);
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  border: none;
 }

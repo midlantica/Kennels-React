@@ -14,25 +14,23 @@ import { LocationProvider } from './location/LocationProvider'
 
 export default () => (
   <>
-    <div className='dh-container'>
-      <address>
-        <p>Visit Us at the Nashville North Location</p>
-        <p>500 Puppy Way</p>
-      </address>
-      <hr />
+    <address>
+      <p className='marB0'>Visit Us at the Nashville North Location</p>
+      <p>500 Puppy Way</p>
+    </address>
+    <hr />
 
-      <AnimalProvider>
-        <CustomerProvider>
-          <EmployeeProvider>
-            <LocationProvider>
-              <AnimalList />
-              <LocationList />
-              <CustomerList />
-              <EmployeeList />
-            </LocationProvider>
-          </EmployeeProvider>
-        </CustomerProvider>
-      </AnimalProvider>
-    </div>
+    <AnimalProvider>
+      <CustomerProvider>
+        <EmployeeProvider>
+          <LocationProvider>
+            <AnimalList />
+            <LocationList />
+            <CustomerList />
+            <EmployeeList />
+          </LocationProvider>
+        </EmployeeProvider>
+      </CustomerProvider>
+    </AnimalProvider>
   </>
 )

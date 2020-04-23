@@ -4,6 +4,7 @@ import './Login.css'
 const Register = (props) => {
   const firstName = useRef()
   const lastName = useRef()
+  const address = useRef()
   const email = useRef()
   const password = useRef()
   const verifyPassword = useRef()
@@ -33,6 +34,7 @@ const Register = (props) => {
             email: email.current.value,
             password: password.current.value,
             name: `${firstName.current.value} ${lastName.current.value}`,
+            address: address.current.value,
           }),
         })
           .then((_) => _.json())
@@ -65,7 +67,7 @@ const Register = (props) => {
           />
         </fieldset>
         <fieldset>
-          <label htmlFor='lastName'> Last Name </label>
+          <label htmlFor='lastName'>Last Name</label>
           <input
             ref={lastName}
             type='text'
@@ -76,7 +78,7 @@ const Register = (props) => {
           />
         </fieldset>
         <fieldset>
-          <label htmlFor='inputEmail'> Email address </label>
+          <label htmlFor='inputEmail'>Email</label>
           <input
             ref={email}
             type='email'
@@ -87,7 +89,18 @@ const Register = (props) => {
           />
         </fieldset>
         <fieldset>
-          <label htmlFor='inputPassword'> Password </label>
+          <label htmlFor='inputAddress'>Street Address</label>
+          <input
+            ref={address}
+            type='text'
+            name='address'
+            className='form-control'
+            placeholder='Street address'
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <label htmlFor='inputPassword'>Password</label>
           <input
             ref={password}
             type='password'
@@ -98,7 +111,7 @@ const Register = (props) => {
           />
         </fieldset>
         <fieldset>
-          <label htmlFor='verifyPassword'> Verify Password </label>
+          <label htmlFor='verifyPassword'>Verify Password</label>
           <input
             ref={verifyPassword}
             type='password'

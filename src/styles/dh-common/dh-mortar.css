@@ -28,26 +28,26 @@
 /* // PAD TO */
 /* // -> 0 REM */
 .pad0 {
-  padding: 0rem !important;
+  padding: 0 !important;
 }
 .padL0 {
-  padding-left: 0rem !important;
+  padding-left: 0 !important;
 }
 .padR0 {
-  padding-right: 0rem !important;
+  padding-right: 0 !important;
 }
 .padT0 {
-  padding-top: 0rem !important;
+  padding-top: 0 !important;
 }
 .padB0 {
-  padding-bottom: 0rem !important;
+  padding-bottom: 0 !important;
 }
 .padLR0 {
-  padding-left: 0rem !important;
+  padding-left: 0 !important;
   padding-right: 0 !important;
 }
 .padTB0 {
-  padding-top: 0rem !important;
+  padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 /* // -> 5 REM */
@@ -223,27 +223,27 @@
 /* // MARGIN */
 /* // -> TO 0 REM */
 .mar0 {
-  margin: 0rem !important;
+  margin: 0 !important;
 }
 .marL0 {
-  margin-left: 0rem !important;
+  margin-left: 0 !important;
 }
 .marR0 {
-  margin-right: 0rem !important;
+  margin-right: 0 !important;
 }
 .marT0 {
-  margin-top: 0rem !important;
+  margin-top: 0 !important;
 }
 .marB0 {
-  margin-bottom: 0rem !important;
+  margin-bottom: 0 !important;
 }
 .marLR0 {
-  margin-left: 0rem !important;
-  margin-right: 0rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 .marTB0 {
-  margin-top: 0rem !important;
-  margin-bottom: 0rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 /* // -> QUARTER 0.25 REM */
 .marQ {
