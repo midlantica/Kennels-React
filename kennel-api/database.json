@@ -20,40 +20,91 @@
       "breed": "Irish Setter",
       "customerId": 3,
       "locationId": 3
+    },
+    {
+      "name": "Barry",
+      "breed": "St Bernard",
+      "locationId": 6,
+      "customerId": 4,
+      "id": 4
+    },
+    {
+      "name": "Big Yellow",
+      "breed": "Golden Labrador",
+      "locationId": 1,
+      "customerId": 9,
+      "id": 5
     }
   ],
   "customers": [
     {
       "id": 1,
       "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "address": "7002 Chestnut Ct",
+      "email": "han@abc.com",
+      "password": "abcabc"
     },
     {
       "id": 2,
       "name": "Valentina Harper",
-      "address": "1400 Dress Sr"
+      "address": "1400 Dress Sr",
+      "email": "val@abc.com",
+      "password": "abcabc"
     },
     {
       "id": 3,
       "name": "Ava Rose",
-      "address": "4 Hartness Lane"
+      "address": "4 Hartness Lane",
+      "email": "ava@abc.com",
+      "password": "abcabc"
+    },
+    {
+      "email": "dru@abc.com",
+      "password": "abcabc",
+      "name": "Drew Harper",
+      "address": "1622 Shaftsbury Lane",
+      "id": 4
+    },
+    {
+      "email": "jmiller@gmail.com",
+      "password": "1234",
+      "name": "Joe Miller",
+      "address": "1 Rocinante",
+      "id": 5
+    },
+    {
+      "email": "abe@gmail.com",
+      "password": "1234",
+      "name": "Abe Vigoda",
+      "address": "101 Johnson St",
+      "id": 6
+    },
+    {
+      "email": "derasmus@gmail.com",
+      "password": "1234",
+      "name": "Desiderius Erasmus",
+      "address": "42 Folly St",
+      "id": 9
     }
   ],
   "employees": [
     {
       "id": 1,
       "name": "Fred Belitnitkof",
+      "locationId": 4,
       "address": "456 Mares Lane"
     },
     {
       "id": 2,
       "name": "Phil Owen",
-      "address": "20 Marlborough Ave"
+      "address": "20 Marlborough Ave",
+      "locationId": 2
     },
     {
       "id": 3,
       "name": "Jim Plunkett",
-      "address": "12 Eustacia Gardens"
+      "address": "12 Eustacia Gardens",
+      "locationId": 4
     },
     {
       "name": "Drew Harper",

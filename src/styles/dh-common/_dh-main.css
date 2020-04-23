@@ -5,6 +5,7 @@
 /* load after */
 @import './dh-flex-grid.css';
 @import './dh-mortar.css';
+@import './dh-borders.css';
 @import './dh-panels.css';
 @import './dh-forms.css';
 @import './dh-buttons.css';
@@ -15,6 +16,7 @@
 @import './dh-xOut.css';
 @import './dh-border-radius.css';
 @import './dh-float.css';
+@import './dh-outline.css';
 
 img,
 video,

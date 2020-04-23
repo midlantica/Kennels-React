@@ -1,10 +1,12 @@
 import React from 'react'
 
 export default ({ animal, location, customer }) => (
-  <section className='box animal'>
-    <h6 className='animal__name'>{animal.name}</h6>
-    <p className='animal__breed'>Breed: {animal.breed}</p>
-    <p className='animal__breed'>Customer Name: {customer.name}</p>
-    <p className='animal__breed'>Location Name: {location.name}</p>
+  <section className='box animal flexColumn'>
+    <div className='topFlexBox'>
+      <h6 className='animal__name marB0'>{animal.name}</h6>
+      <p className='fs-small'>{animal.breed}</p>
+      <p className='fs-x-small'>Customer: {customer.name}</p>
+      <p className='fs-x-small'>Location: {location.name}</p>
+    </div>
   </section>
 )
