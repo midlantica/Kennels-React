@@ -25,8 +25,8 @@ export default () => (
         <CustomerProvider>
           <EmployeeProvider>
             <LocationProvider>
-              <LocationList />
               <AnimalList />
+              <LocationList />
               <CustomerList />
               <EmployeeList />
             </LocationProvider>

@@ -28,26 +28,27 @@
       "name": "Hannah Hall",
       "address": "7002 Chestnut Ct",
       "email": "han@abc.com",
-      "password:": "abcabc"
+      "password": "abcabc"
     },
     {
       "id": 2,
       "name": "Valentina Harper",
       "address": "1400 Dress Sr",
       "email": "val@abc.com",
-      "password:": "abcabc"
+      "password": "abcabc"
     },
     {
       "id": 3,
       "name": "Ava Rose",
       "address": "4 Hartness Lane",
       "email": "ava@abc.com",
-      "password:": "abcabc"
+      "password": "abcabc"
     },
     {
       "email": "dru@abc.com",
       "password": "abcabc",
       "name": "Drew Harper",
+      "address": "1622 Shaftsbury Lane",
       "id": 4
     }
   ],

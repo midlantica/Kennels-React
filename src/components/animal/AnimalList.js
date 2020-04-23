@@ -16,19 +16,23 @@ export default () => {
 
   return (
     <>
-      <h2>Animals</h2>
-      <Button
-        onClick={() => {
-          // check if the user is authenticated
-          const userId = localStorage.getItem('kennel_customer')
-          if (userId) {
-            // If the user is authenticated, show the animal form
-            toggle()
-          }
-        }}
-      >
-        Make Appointment
-      </Button>
+      <div className='flexRow'>
+        <h4 className='marRH'>Employees</h4>
+        <Button
+          className='plusBtn'
+          onClick={() => {
+            // check if the user is authenticated
+            const userId = localStorage.getItem('kennel_customer')
+            if (userId) {
+              // If the user is authenticated, show the animal form
+              toggle()
+            }
+          }}
+        >
+          &#65291;
+        </Button>
+      </div>
+
       <div className='gridSection animals'>
         {animals.map((ani) => {
           const matchingLocation = locations.find(

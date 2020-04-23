@@ -4,7 +4,7 @@
 }
 
 .form-control {
-  font-size: 80% !important;
+  /* font-size: 80% !important; */
 }
 
 .form-control button,
@@ -16,5 +16,5 @@
 }
 
 label {
-  font-size: 80% !important;
+  /* font-size: 80% !important; */
 }

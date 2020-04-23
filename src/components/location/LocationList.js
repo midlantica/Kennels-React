@@ -7,7 +7,7 @@ export default () => {
 
   return (
     <>
-      <h2>Locations</h2>
+      <h4>Locations</h4>
       <div className='gridSection locations'>
         {locations.map((loc) => (
           <Location key={loc.id} location={loc} />

@@ -82,7 +82,7 @@ export default (props) => {
           // create the animal function goes here
           constructNewAnimal()
         }}
-        className='btn btn-primary'
+        className='btn btn-primary btn-save'
       >
         Admit Animal
       </button>
