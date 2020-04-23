@@ -8,10 +8,8 @@
   display: flex;
   flex-direction: column;
   flex: 1;
-  padding: 2rem;
 }
 
 .dataContainer {
-  padding: 2rem;
   flex: 4;
 }

@@ -17,8 +17,8 @@ export const SearchResults = ({ searchTerms }) => {
   }, [searchTerms, animals])
 
   return (
-    <div className='searchResults'>
-      <h3>Results</h3>
+    <div className='searchResults marB1'>
+      <h6>Search results...</h6>
       <div className='animals'>
         {filteredAnimals.map((animal) => (
           <div key='{ animal.id }'>{animal.name}</div>

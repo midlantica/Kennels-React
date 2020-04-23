@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // ANIMALS
 import AnimalList from './animal/AnimalList'
 import { AnimalProvider } from './animal/AnimalProvider'
@@ -11,26 +11,39 @@ import { EmployeeProvider } from './employee/EmployeeProvider'
 // LOCATIONS
 import LocationList from './location/LocationList'
 import { LocationProvider } from './location/LocationProvider'
+// SEARCH
+import { SearchBar } from './search/SearchBar'
+import { SearchResults } from './search/SearchResults'
 
-export default () => (
-  <>
-    <address>
-      <p className='marB0'>Visit Us at the Nashville North Location</p>
-      <p>500 Puppy Way</p>
-    </address>
-    <hr />
+export default () => {
+  const [searchTerms, setTerms] = useState(null)
 
-    <AnimalProvider>
-      <CustomerProvider>
-        <EmployeeProvider>
-          <LocationProvider>
-            <AnimalList />
-            <CustomerList />
-            <LocationList />
-            <EmployeeList />
-          </LocationProvider>
-        </EmployeeProvider>
-      </CustomerProvider>
-    </AnimalProvider>
-  </>
-)
+  return (
+    <>
+      <address>
+        <p className='marB0'>Visit Us at the Nashville North Location</p>
+        <p>500 Puppy Way</p>
+      </address>
+      <hr />
+
+      <AnimalProvider>
+        <CustomerProvider>
+          <EmployeeProvider>
+            <LocationProvider>
+              <div className='searchContainer'>
+                <SearchBar setTerms={setTerms} />
+                <SearchResults searchTerms={searchTerms} />
+              </div>
+              <div className='dataContainer'>
+                <AnimalList />
+                <CustomerList />
+                <LocationList />
+                <EmployeeList />
+              </div>
+            </LocationProvider>
+          </EmployeeProvider>
+        </CustomerProvider>
+      </AnimalProvider>
+    </>
+  )
+}
