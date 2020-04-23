@@ -5,7 +5,7 @@ export const SearchBar = ({ setTerms }) => {
 
   return (
     <fieldset>
-      <div className='form-group'>
+      <div className='form-group marB0'>
         <label htmlFor='searchTerms'>Search:</label>
         <input
           onKeyUp={(e) => setTerms(e.target.value)}
@@ -14,7 +14,7 @@ export const SearchBar = ({ setTerms }) => {
           ref={terms}
           required
           autoFocus
-          className='form-control'
+          className='form-control br-B0 outline-none'
         />
       </div>
     </fieldset>

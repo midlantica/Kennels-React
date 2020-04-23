@@ -23,6 +23,28 @@ audio {
   height: auto;
 }
 
+.outline {
+  outline: initial !important;
+  box-shadow: none;
+}
+
+.outline-none {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.outline-none:hover,
+.outline-none:focus,
+.outline-none:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.form-control .outline-none:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
 .redline {
   border: 1px solid hsl(0, 100%, 80%) !important;
   background: hsl(350, 100%, 95%) !important;

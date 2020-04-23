@@ -7,7 +7,6 @@
 }
 
 .form-control {
-  /* font-size: 80% !important; */
   border: 0.03rem solid hsla(0, 0%, 50%, 0.5);
 }
 
@@ -20,20 +19,18 @@ textarea.form-control {
 }
 
 label {
-  /* font-size: 80% !important; */
+  font-size: 80% !important;
 }
 
 .btn-primary {
   color: white;
-  background-color: hsla(0, 0%, 50%, 0.85) !important;
+  background-color: hsla(145, 100%, 40%, 0.7) !important;
   border-color: hsla(0, 0%, 50%, 0.85) !important;
   border: none;
   outline: none;
 }
 
 .btn-primary:hover {
-  color: var(--primary-dk);
-  background-color: var(--primary) !important;
-  border-color: var(--primary) !important;
+  background-color: hsla(145, 100%, 40%, 1) !important;
   border: none;
 }

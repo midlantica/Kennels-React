@@ -17,13 +17,13 @@ export const SearchResults = ({ searchTerms }) => {
   }, [searchTerms, animals])
 
   return (
-    <div className='searchResults marB1'>
-      <h6>Search results...</h6>
-      <div className='animals'>
+    <div className='searchResults br-BQ'>
+      {/* <h6>Search results...</h6> */}
+      <dl className='animals'>
         {filteredAnimals.map((animal) => (
-          <div key='{ animal.id }'>{animal.name}</div>
+          <dd key='{ animal.id }'>{animal.name}</dd>
         ))}
-      </div>
+      </dl>
     </div>
   )
 }
