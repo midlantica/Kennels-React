@@ -55,17 +55,20 @@
     {
       "id": 1,
       "name": "Fred Belitnitkof",
+      "locationId": 4,
       "address": "456 Mares Lane"
     },
     {
       "id": 2,
       "name": "Phil Owen",
-      "address": "20 Marlborough Ave"
+      "address": "20 Marlborough Ave",
+      "locationId": 2
     },
     {
       "id": 3,
       "name": "Jim Plunkett",
-      "address": "12 Eustacia Gardens"
+      "address": "12 Eustacia Gardens",
+      "locationId": 4
     },
     {
       "name": "Drew Harper",

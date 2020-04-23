@@ -6,10 +6,16 @@ export default () => {
   const { customers } = useContext(CustomerContext)
 
   return (
-    <div className='gridSection customers'>
-      {customers.map((loc) => (
-        <Customer key={loc.id} customer={loc} />
-      ))}
-    </div>
+    <>
+      <div className='flexRow'>
+        <h4 className='marRH'>Customers</h4>
+      </div>
+
+      <div className='gridSection customers'>
+        {customers.map((loc) => (
+          <Customer key={loc.id} customer={loc} />
+        ))}
+      </div>
+    </>
   )
 }

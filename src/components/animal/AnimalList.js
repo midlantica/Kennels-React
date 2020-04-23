@@ -29,7 +29,7 @@ export default () => {
       >
         Make Appointment
       </Button>
-      <div className='animals'>
+      <div className='gridSection animals'>
         {animals.map((ani) => {
           const matchingLocation = locations.find(
             (loc) => loc.id === ani.locationId

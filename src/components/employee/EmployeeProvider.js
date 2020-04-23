@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 /*
     The context is imported and used by individual components
@@ -37,7 +37,7 @@ export const EmployeeProvider = (props) => {
   }, [])
 
   useEffect(() => {
-    console.log('****  EMPLOYEE APPLICATION STATE CHANGED  ****')
+    console.log('****  Employee APPLICATION STATE CHANGED  ****')
   }, [employees])
 
   return (

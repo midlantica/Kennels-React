@@ -1,15 +1,18 @@
 import React, { useContext } from 'react'
-import Location from './Location'
 import { LocationContext } from './LocationProvider'
+import Location from './Location'
 
 export default () => {
   const { locations } = useContext(LocationContext)
 
   return (
-    <div className='gridSection locations'>
-      {locations.map((loc) => (
-        <Location key={loc.id} location={loc} />
-      ))}
-    </div>
+    <>
+      <h2>Locations</h2>
+      <div className='gridSection locations'>
+        {locations.map((loc) => (
+          <Location key={loc.id} location={loc} />
+        ))}
+      </div>
+    </>
   )
 }
