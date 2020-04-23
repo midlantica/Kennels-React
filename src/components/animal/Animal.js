@@ -8,8 +8,5 @@ export default ({ animal, location, customer }) => (
       <p className='fs-x-small'>Customer: {customer.name}</p>
       <p className='fs-x-small'>Location: {location.name}</p>
     </div>
-    <button className='btn btn-primary btnXSmall marTH'>
-      Make Appointment
-    </button>
   </section>
 )

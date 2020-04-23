@@ -27,6 +27,13 @@
       "locationId": 6,
       "customerId": 4,
       "id": 4
+    },
+    {
+      "name": "Big Yellow",
+      "breed": "Golden Labrador",
+      "locationId": 1,
+      "customerId": 9,
+      "id": 5
     }
   ],
   "customers": [
