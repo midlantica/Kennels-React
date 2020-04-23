@@ -1,5 +1,6 @@
 import React, { useState, useContext, useEffect } from 'react'
 import { AnimalContext } from '../animal/AnimalProvider'
+import './search.css'
 
 export const SearchResults = ({ searchTerms }) => {
   const { animals } = useContext(AnimalContext)
@@ -17,7 +18,7 @@ export const SearchResults = ({ searchTerms }) => {
   }, [searchTerms, animals])
 
   return (
-    <div className='searchResults br-BQ'>
+    <div className='searchResults br-BQ pad0'>
       {/* <h6>Search results...</h6> */}
       <dl className='animals'>
         {filteredAnimals.map((animal) => (

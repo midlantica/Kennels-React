@@ -5,6 +5,7 @@
 /* load after */
 @import './dh-flex-grid.css';
 @import './dh-mortar.css';
+@import './dh-borders.css';
 @import './dh-panels.css';
 @import './dh-forms.css';
 @import './dh-buttons.css';
@@ -15,34 +16,13 @@
 @import './dh-xOut.css';
 @import './dh-border-radius.css';
 @import './dh-float.css';
+@import './dh-outline.css';
 
 img,
 video,
 audio {
   max-width: 100%;
   height: auto;
-}
-
-.outline {
-  outline: initial !important;
-  box-shadow: none;
-}
-
-.outline-none {
-  outline: none !important;
-  box-shadow: none;
-}
-
-.outline-none:hover,
-.outline-none:focus,
-.outline-none:active {
-  outline: none !important;
-  box-shadow: none;
-}
-
-.form-control .outline-none:focus {
-  outline: none !important;
-  box-shadow: none;
 }
 
 .redline {

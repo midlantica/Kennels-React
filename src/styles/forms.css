@@ -10,6 +10,10 @@
   border: 0.03rem solid hsla(0, 0%, 50%, 0.5);
 }
 
+.form-control input {
+  background: var(--yellow50);
+}
+
 button.form-control,
 input.form-control,
 optgroup.form-control,
@@ -33,4 +37,14 @@ label {
 .btn-primary:hover {
   background-color: hsla(145, 100%, 40%, 1) !important;
   border: none;
+}
+
+.form-control .outline-none:focus {
+  outline: none !important;
+  box-shadow: none;
+  border-color: var(--amber500);
+}
+
+.form-control:focus {
+  border-color: var(--amber500);
 }

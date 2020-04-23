@@ -1,4 +1,5 @@
 import React, { useRef } from 'react'
+import './search.css'
 
 export const SearchBar = ({ setTerms }) => {
   const { terms } = useRef()
