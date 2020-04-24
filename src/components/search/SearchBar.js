@@ -13,6 +13,7 @@ export const SearchBar = ({ setTerms }) => {
           type='text'
           ref={terms}
           autoFocus
+          placeholder='Enter search...'
           className='form-control br-B0 outline-none'
         />
       </div>
