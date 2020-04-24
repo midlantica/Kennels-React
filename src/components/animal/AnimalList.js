@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext, useState } from 'react'
 import { AnimalContext } from './AnimalProvider'
 import { LocationContext } from '../location/LocationProvider'
 import { CustomerContext } from '../customer/CustomerProvider'
@@ -16,23 +16,11 @@ export default ({ searchTerms }) => {
 
   const [filteredAnimals, setFiltered] = useState([])
 
-  useEffect(() => {
-    if (searchTerms !== '') {
-      const subset = animals.filter((animal) =>
-        animal.name.toLowerCase().includes(searchTerms)
-      )
-      setFiltered(subset)
-    } else {
-      setFiltered([])
-    }
-  }, [searchTerms, animals])
-
   return (
     <>
       <div className='flexRow'>
         <h4 className='marRH'>Animals</h4>
         <Button
-          className='plusBtn'
           onClick={() => {
             // check if the user is authenticated
             const userId = localStorage.getItem('kennel_customer')
@@ -41,13 +29,14 @@ export default ({ searchTerms }) => {
               toggle()
             }
           }}
+          className='plusBtn'
         >
           &#65291; {/* <<-- That's the unicode plus symbol +++ */}
         </Button>
       </div>
 
       <div className='gridSection animals'>
-        {filteredAnimals.map((ani) => {
+        {animals.map((ani) => {
           const matchingLocation = locations.find(
             (loc) => loc.id === ani.locationId
           )

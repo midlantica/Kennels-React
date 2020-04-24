@@ -21,7 +21,7 @@ export const SearchResults = ({ searchTerms }) => {
     <div className='searchResults br-BQ pad0'>
       <dl className='animals'>
         {filteredAnimals.map((animal) => (
-          <dd key='{animal.id}'>{animal.name}</dd>
+          <dd key={animal.id}>{animal.name}</dd>
         ))}
       </dl>
     </div>

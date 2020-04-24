@@ -16,7 +16,7 @@ import { SearchBar } from './search/SearchBar'
 import { SearchResults } from './search/SearchResults'
 
 export default () => {
-  const [searchTerms, setTerms] = useState(null)
+  const [searchTerms, setTerms] = useState()
 
   return (
     <>
