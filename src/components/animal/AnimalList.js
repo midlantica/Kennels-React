@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import { AnimalContext } from './AnimalProvider'
 import { LocationContext } from '../location/LocationProvider'
 import { CustomerContext } from '../customer/CustomerProvider'
@@ -6,13 +6,26 @@ import { Button, Modal, ModalBody, ModalHeader } from 'reactstrap'
 import AnimalForm from './AnimalForm'
 import Animal from './Animal'
 
-export default () => {
+export default ({ searchTerms }) => {
   const { animals } = useContext(AnimalContext)
   const { locations } = useContext(LocationContext)
   const { customers } = useContext(CustomerContext)
 
   const [modal, setModal] = useState(false)
   const toggle = () => setModal(!modal)
+
+  const [filteredAnimals, setFiltered] = useState([])
+
+  useEffect(() => {
+    if (searchTerms !== '') {
+      const subset = animals.filter((animal) =>
+        animal.name.toLowerCase().includes(searchTerms)
+      )
+      setFiltered(subset)
+    } else {
+      setFiltered([])
+    }
+  }, [searchTerms, animals])
 
   return (
     <>
@@ -29,12 +42,12 @@ export default () => {
             }
           }}
         >
-          &#65291;
+          &#65291; {/* <<-- That's the unicode plus symbol +++ */}
         </Button>
       </div>
 
       <div className='gridSection animals'>
-        {animals.map((ani) => {
+        {filteredAnimals.map((ani) => {
           const matchingLocation = locations.find(
             (loc) => loc.id === ani.locationId
           )
