@@ -11,9 +11,7 @@ export const SearchBar = ({ setTerms }) => {
         <input
           onKeyUp={(e) => setTerms(e.target.value)}
           type='text'
-          id='employeeNameSearchTerms'
           ref={terms}
-          required
           autoFocus
           className='form-control br-B0 outline-none'
         />

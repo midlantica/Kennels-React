@@ -6,7 +6,7 @@ import { Button, Modal, ModalBody, ModalHeader } from 'reactstrap'
 import AnimalForm from './AnimalForm'
 import Animal from './Animal'
 
-export default () => {
+export default ({ searchTerms }) => {
   const { animals } = useContext(AnimalContext)
   const { locations } = useContext(LocationContext)
   const { customers } = useContext(CustomerContext)
@@ -14,12 +14,13 @@ export default () => {
   const [modal, setModal] = useState(false)
   const toggle = () => setModal(!modal)
 
+  const [filteredAnimals, setFiltered] = useState([])
+
   return (
     <>
       <div className='flexRow'>
         <h4 className='marRH'>Animals</h4>
         <Button
-          className='plusBtn'
           onClick={() => {
             // check if the user is authenticated
             const userId = localStorage.getItem('kennel_customer')
@@ -28,8 +29,9 @@ export default () => {
               toggle()
             }
           }}
+          className='plusBtn'
         >
-          &#65291;
+          &#65291; {/* <<-- That's the unicode plus symbol +++ */}
         </Button>
       </div>
 
