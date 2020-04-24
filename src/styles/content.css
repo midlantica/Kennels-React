@@ -34,7 +34,7 @@
 .employees h6,
 .locations h6,
 .customers h6 {
-  color: var(--primary-dkr);
+  color: var(--primary-dk);
   font-family: Comfortaa;
   font-weight: bold;
   font-size: 0.7rem;
