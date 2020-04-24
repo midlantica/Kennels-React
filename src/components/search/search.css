@@ -7,7 +7,9 @@
   /* background: var(--yellow50); */
 }
 
-.searchContainer .form-group input:hover {
+.searchContainer .form-group input:hover,
+.searchContainer .form-group input:focus,
+.searchContainer .form-group input:active {
   background: var(--yellow50);
 }
 

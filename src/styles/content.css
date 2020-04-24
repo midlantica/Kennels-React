@@ -56,3 +56,13 @@
 .customer {
   /*  */
 }
+
+.animal:hover,
+.employee:hover,
+.location:hover,
+.customer:hover {
+  /* background: var(--amber50); */
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 1px 4px -2px hsla(0, 0%, 0%, 0.3);
+}
