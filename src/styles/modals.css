@@ -6,10 +6,37 @@
   /* font-size: 80%; */
 }
 
+.modal-dialog .modal-footer button:first-of-type {
+  margin-top: auto;
+  /* font-size: 80%; */
+}
+
 .modal-open {
   /*  */
 }
 
 .modal {
   top: 4.4rem;
+}
+
+.modal-content .animal,
+.modal-content .employee,
+.modal-content .location,
+.modal-content .customer {
+  transform: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: initial;
+}
+
+.modal-content .animal:hover,
+.modal-content .employee:hover,
+.modal-content .location:hover,
+.modal-content .customer:hover {
+  transform: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: initial;
 }

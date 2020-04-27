@@ -7,6 +7,10 @@
   /* background: var(--yellow50); */
 }
 
+/* .searchContainer .form-group label {
+  margin-bottom: 0 !important;
+} */
+
 .searchContainer .form-group input:hover,
 .searchContainer .form-group input:focus,
 .searchContainer .form-group input:active {
@@ -18,7 +22,7 @@
 .searchContainer .form-group optgroup.form-control,
 .searchContainer .form-group select.form-control,
 .searchContainer .form-group textarea.form-control {
-  font-size: 120% !important;
+  font-size: 100% !important;
 }
 
 .searchResults {

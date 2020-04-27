@@ -1,10 +1,10 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState, useEffect } from 'react'
 import { AnimalContext } from './AnimalProvider'
 import { LocationContext } from '../location/LocationProvider'
 import { CustomerContext } from '../customer/CustomerProvider'
 import { Button, Modal, ModalBody, ModalHeader } from 'reactstrap'
 import AnimalForm from './AnimalForm'
-import Animal from './Animal'
+import { Animal } from './Animal'
 
 export default ({ searchTerms }) => {
   const { animals } = useContext(AnimalContext)
