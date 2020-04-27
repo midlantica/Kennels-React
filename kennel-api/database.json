@@ -34,6 +34,13 @@
       "breed": "Golden Labrador",
       "locationId": 1,
       "customerId": 3
+    },
+    {
+      "name": "Spike",
+      "breed": "Poodle",
+      "locationId": 6,
+      "customerId": 3,
+      "id": 6
     }
   ],
   "customers": [
@@ -117,6 +124,18 @@
       "locationId": 5,
       "address": "204 Yard St",
       "id": 5
+    },
+    {
+      "name": "Nicki Dawson",
+      "locationId": 6,
+      "address": "10104 Bonita Springs Dr",
+      "id": 6
+    },
+    {
+      "name": "James Jackson",
+      "locationId": 2,
+      "address": "10 Pine Dr",
+      "id": 7
     }
   ],
   "locations": [

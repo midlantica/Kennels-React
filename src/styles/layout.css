@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  position: relative;
 }
 
 .dataContainer {
@@ -19,4 +20,8 @@
   padding: 0.5rem;
   border: 1px solid rgb(220, 220, 220);
   box-shadow: 0px 3px 4px -5px hsla(0, 0%, 0%, 0.5);
+  position: absolute;
+  width: 100%;
+  top: 73px;
+  z-index: 10;
 }
