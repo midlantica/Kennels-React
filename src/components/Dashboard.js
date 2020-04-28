@@ -36,9 +36,9 @@ export default () => {
               </div>
               <div className='dataContainer'>
                 <AnimalList />
+                <EmployeeList />
                 <CustomerList />
                 <LocationList />
-                <EmployeeList />
               </div>
             </LocationProvider>
           </EmployeeProvider>
