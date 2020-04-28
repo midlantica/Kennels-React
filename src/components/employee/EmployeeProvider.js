@@ -28,6 +28,12 @@ export const EmployeeProvider = (props) => {
     }).then(getEmployees)
   }
 
+  const removeEmployee = (employeeId) => {
+    return fetch(`http://localhost:8088/employees/${employeeId}`, {
+      method: 'DELETE',
+    }).then(getEmployees)
+  }
+
   /*
         Load all animals when the component is mounted. Ensure that
         an empty array is the second argument to avoid infinite loop.
@@ -45,6 +51,7 @@ export const EmployeeProvider = (props) => {
       value={{
         employees,
         addEmployee,
+        removeEmployee,
       }}
     >
       {props.children}

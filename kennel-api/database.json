@@ -96,18 +96,6 @@
   ],
   "employees": [
     {
-      "id": 1,
-      "name": "Fred Belitnitkof",
-      "locationId": 4,
-      "address": "456 Mares Lane"
-    },
-    {
-      "id": 2,
-      "name": "Phil Owen",
-      "address": "20 Marlborough Ave",
-      "locationId": 2
-    },
-    {
       "id": 3,
       "name": "Jim Plunkett",
       "address": "12 Eustacia Gardens",
@@ -120,21 +108,15 @@
       "id": 4
     },
     {
-      "name": "Jim Horrocks",
-      "locationId": 5,
-      "address": "204 Yard St",
-      "id": 5
-    },
-    {
       "name": "Nicki Dawson",
       "locationId": 6,
       "address": "10104 Bonita Springs Dr",
       "id": 6
     },
     {
-      "name": "James Jackson",
-      "locationId": 2,
-      "address": "10 Pine Dr",
+      "name": "David Hume",
+      "locationId": 5,
+      "address": "1 Main ST, Edinburgh",
       "id": 7
     }
   ],
