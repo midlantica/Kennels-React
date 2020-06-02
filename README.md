@@ -1,6 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Nashville Kennels Screen shot](nashville-kennels_sst.png)
+![Nashville Kennels Screen shot](src/nashville-kennels_sst.png)
+
+
 
 ## Available Scripts
 
